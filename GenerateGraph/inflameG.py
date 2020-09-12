@@ -26,7 +26,7 @@ def edgeMap(e, el,ns):
             return (e[0],e[1],1)
    
 
-p="/home/nikhila/Desktop/AEPADataSet/first-n-sum/map-exp"
+p=input("Enter file path: ")
 n=os.listdir(p) # Nodes of G
 e=[] # Edges of G
 e.append(('3.c', '1.c',1))
